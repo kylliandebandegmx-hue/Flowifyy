@@ -1,0 +1,68 @@
+.player {
+  grid-area: player;
+  background: var(--bg2);
+  border-top: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Player inner ──────────────────────────────────────────────────────── */
+
+.player-inner {
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  height: 72px;
+  gap: 24px;
+}
+
+/* ── Track info ────────────────────────────────────────────────────────── */
+
+.player-track {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 280px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.player-thumb {
+  height: 50px;
+  border-radius: 8px;
+  object-fit: cover;
+  flex-shrink: 0;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+.player-track-text {
+  overflow: hidden;
+}
+
+.player-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.player-channel {
+  font-size: 14px;
+  color: var(--text2);
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ── Controls ──────────────────────────────────────────────────────────── */
+
+.player-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  justify-content: center;
+}

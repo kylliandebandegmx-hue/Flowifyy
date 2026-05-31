@@ -1,0 +1,8 @@
+build/
+frontend/dist/
+frontend/node_modules/
+frontend/wailsjs/
+*.exe
+*.dmg
+*.pkg
+.DS_Store

@@ -1,0 +1,19 @@
+{
+  "name": "Flowify",
+  "short_name": "Flowify",
+  "description": "Lecteur musical collaboratif avec playlists partageables.",
+  "id": "/Flowify/",
+  "start_url": "/Flowify/",
+  "scope": "/Flowify/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "portrait",
+  "background_color": "#0a0a0f",
+  "theme_color": "#ff3d6b",
+  "categories": ["music", "entertainment"],
+  "prefer_related_applications": false,
+  "icons": [
+    { "src": "/Flowify/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/Flowify/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
